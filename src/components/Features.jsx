@@ -1,17 +1,17 @@
-import { Shield, CreditCard, Truck, Zap } from "lucide-react";
+import { Shield, Leaf, Ruler, Truck } from "lucide-react";
 
 const features = [
-  { icon: Shield, title: "Secure by default", desc: "PCI-compliant payments with Stripe and end‑to‑end encryption." },
-  { icon: Truck, title: "Fast shipping", desc: "Global carriers with real‑time rates and tracked delivery." },
-  { icon: CreditCard, title: "3D product demo", desc: "Interactive, light 3D card experience powered by Spline." },
-  { icon: Zap, title: "Performance first", desc: "Optimized assets and accessibility baked in from day one." },
+  { icon: Leaf, title: "Sustainable fabrics", desc: "Low‑impact materials sourced responsibly." },
+  { icon: Ruler, title: "Tailored fits", desc: "Modern silhouettes cut for comfort and movement." },
+  { icon: Truck, title: "Global shipping", desc: "Tracked delivery with simple, transparent returns." },
+  { icon: Shield, title: "Quality guaranteed", desc: "Meticulous craftsmanship and durable construction." },
 ];
 
 export default function Features() {
   return (
     <section id="features" className="bg-slate-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
-        <h2 className="text-2xl font-semibold tracking-tight text-slate-900">Why REFINED</h2>
+        <h2 className="text-2xl font-semibold tracking-tight text-slate-900">Crafted with intention</h2>
         <ul className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map(({ icon: Icon, title, desc }) => (
             <li key={title} className="rounded-2xl bg-white p-6 ring-1 ring-black/5 shadow-sm">
